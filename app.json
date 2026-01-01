@@ -17,9 +17,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundImage": "./assets/images/logo.png",
+        "monochromeImage": "./assets/images/logo.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
@@ -34,7 +34,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
@@ -52,7 +52,8 @@
       "router": {},
       "eas": {
         "projectId": "b705ccca-52cb-4fb7-815d-fbdf28ccb8a0"
-      }
+      },
+      "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_YXJyaXZpbmctc2xvdGgtNzcuY2xlcmsuYWNjb3VudHMuZGV2JA"
     },
     "owner": "mohsinjawad5253s-organization"
   }
