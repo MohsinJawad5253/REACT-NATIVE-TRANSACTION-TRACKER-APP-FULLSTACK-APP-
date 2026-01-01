@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "WalletX",
-    "slug": "mobile",
+    "slug": "walletx",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/images/logo.png",
@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mohsinjawad5253sorganization.walletx",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +23,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.mohsinjawad5253sorganization.walletx"
     },
     "web": {
       "output": "static",
@@ -43,6 +48,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c251f7fb-4953-4d12-a7ff-8bbac91501c7"
+      }
+    },
+    "owner": "mohsinjawad5253s-organization"
   }
 }
