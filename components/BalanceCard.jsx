@@ -9,7 +9,7 @@ export const BalanceCard = ({ summary }) => {
       <Text style={{
         fontSize: 32,
     fontWeight: "bold",
-    color: (summary.balance >0) ? "green" : "red",
+    color: (summary.balance >0) ? "#44c06bff" : "#dd4c4cff",
     marginBottom: 20,
       }}>₹{parseFloat(summary.balance).toFixed(2)}</Text>
       <View style={styles.balanceStats}>

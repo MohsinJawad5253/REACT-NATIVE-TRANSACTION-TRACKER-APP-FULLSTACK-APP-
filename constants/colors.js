@@ -51,12 +51,26 @@ const oceanTheme = {
   shadow: "#000000",
 };
 
+const charcoalGreyTheme = {
+  primary: "#2A2A2A",     // Charcoal black for primary elements
+  background: "#D4D4D4",  // Warm medium grey background
+  text: "#0F0F0F",        // High-contrast main text
+  border: "#A8A8A8",      // Defined but not heavy borders
+  white: "#FFFFFF",
+  textLight: "#5E5E5E",   // Muted secondary text
+  expense: "#dd4c4cff",     // Dark emphasis for expenses
+  income: "#44c06bff",      // Slightly lighter for differentiation
+  card: "#F2F2F2",        // Soft off-white cards
+  shadow: "#000000",
+};
+
 export const THEMES = {
   coffee: coffeeTheme,
   forest: forestTheme,
   purple: purpleTheme,
   ocean: oceanTheme,
+  dark: charcoalGreyTheme
 };
 
 // 👇 change this to switch theme
-export const COLORS = THEMES.coffee;
+export const COLORS = THEMES.dark;

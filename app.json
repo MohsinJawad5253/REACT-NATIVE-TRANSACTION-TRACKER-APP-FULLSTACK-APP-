@@ -12,7 +12,11 @@
       "silentLaunch": true
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "y",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -55,6 +59,12 @@
       },
       "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_YXJyaXZpbmctc2xvdGgtNzcuY2xlcmsuYWNjb3VudHMuZGV2JA"
     },
-    "owner": "mohsinjawad5253s-organization"
+    "owner": "mohsinjawad5253s-organization",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b705ccca-52cb-4fb7-815d-fbdf28ccb8a0"
+    }
   }
 }
